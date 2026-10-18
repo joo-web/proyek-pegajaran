@@ -1,0 +1,25 @@
+name: nada_music
+description: Pemutar musik Android dengan pencarian YouTube, unduhan, dan playlist lokal.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: '>=3.38.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audio_service: 0.18.18
+  audio_session: 0.2.2
+  just_audio: 0.10.6
+  path_provider: 2.1.6
+  youtube_explode_dart: 3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
